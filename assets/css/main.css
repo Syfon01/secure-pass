@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body{
+  font-family: 'DM Sans', sans-serif!important;
+  color: #111827;
+}
+p{
+  font-family: 'DM Sans', sans-serif!important;
+}
+.bg-secure{
+  background-color: rgba(17, 24, 39, 1);
+  color: #fff!important;
+}
+.bg-secure p{
+  color: #fff!important;
+}
+.body-padding{
+  padding: 24px 18px;
+}
+.neg-card{
+  background-color: rgba(243, 244, 246, 1)!important;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 2px -3px 2px 0px rgba(29, 29, 29, 0.15);
+  margin-top: -95px
+  }
+  .started-neg-card{
+    background-color: rgba(243, 244, 246, 1)!important;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 2px -3px 2px 0px rgba(29, 29, 29, 0.15);
+    margin-top: -55px
+  }
+.img-mobile{
+  width: 40px;
+  height: 40px;
+}
+.bg-red{
+  background-color: rgba(226, 15, 0, 1);
+  border-radius: 8px;
+  color: #fff;
+  height: 100%;
+}
+.tx-17{
+  font-size: 17px;
+}
+.btn-gray{
+  background-color: #E5E7EB!important;
+}
+.btn-black{
+  background: #000;
+  color: #fff;
+}
+.main{
+  min-height: 100vh;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+.bg-header{
+  background-image: url('../img/active.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+.vert-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+input, .custom-select {
+
+  background-color : #F6F6F6!important; 
+  border: 1px solid #E5E7EB!important;
+
+}
+select.custom-select, ::placeholder{
+  color: #9CA3AF!important;
+}
+
+.btn-primary{
+  background: linear-gradient(180deg, #D70900 0%, #BF0B1C 100%);
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px rgba(27, 31, 35, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.03);
+  color: #fff!important;
+    font-weight:700;
+   }
+  .bg-form{
+    background-image: url('../img/Oreti.svg');
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+  background-position: right;
+  }
+  .bg-gray{
+    background: rgba(243, 244, 246, 1);
+  }

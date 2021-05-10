@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="UBA - Know Your Employee">
+    <title>UBA - Secure Pass</title>
+
+    <!-- Required External CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- <link href="assets/lib/jqvmap/jqvmap.min.css" rel="stylesheet"> -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="assets/css/dashforge.css">
+
+    <!-- Page CSS --> 
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+  </head>
+  <body>
+    <section>
+      <div class="col-md-4 col-lg-4 col-12 mx-auto pd-x-0 pd-lg-y-20">
+        <main class="main">
+          <div class="body-padding">
+            <div class="container pd-x-0">
+              <header class="d-flex justify-content-between">
+                <a onclick="goBack()" class="pd-t-10"><i class="fa fa-arrow-left"></i></a>
+                <img src="./assets/img/uba_logo_red.svg" class="d-block img-fluid ml-auto" alt="" srcset="">
+              </header>
+            
+              <div class="mg-t-60">
+                <p class="tx-24 tx-bold">New Device Activation</p>
+                <div class="bg-header">
+                  <div class="d-flex vert-center">
+                    <img src="./assets/img/Mobile.svg" alt="" class="img-fluid" srcset="">
+                    <p class="tx-17 tx-white mb-0">Use Your Internet Banking Profile</p>
+                  </div>
+                </div>
+                <div class="d-flex mg-t-20">
+                  <p class="pd-r-10"> 
+                  <img src="./assets/img/icon/info.svg" class="img-flui" alt="" srcset="">
+                  </p>
+                  <p class="tx-14">Activate your secure pass on this device using your existing USER ID on the UBA Internet Banking platform</p>
+                </div>
+
+                <form>
+                  <div class="form-group mg-t-30">
+                    <label for="" class="d-block tx-medium mb-1">Mobile Banking User ID </label>
+                    <input type="text" class="form-control input-icon" placeholder=" &#xf2c0; User ID" style="font-family:Arial, FontAwesome">
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="d-block tx-medium mb-1">Select Country of your UBA Account</label>
+                    <select class="custom-select">
+                      <option selected>- Country -</option>
+                      <option value="1">Nigeria</option>
+                      <option value="2">Ghana</option>
+                      <option value="3">Zambia</option>
+                    </select>
+                  </div>
+                
+                  <div class="bg-form mg-t-40">
+                    <button class="btn btn-primary w-100 mg-t-40">Activate </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray tx-center pd-y-20">
+            <p class="tx-14">Don’t have an Internet Banking Profile?</p>
+            <p>
+            <a href="http://" target="_blank" class="btn btn-black pd-x-30" rel="noopener noreferrer">Go to UBA iBanking</a>
+            </p>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/feather-icons/feather.min.js"></script>
+    <script src="assets/js/dashforge.js"></script>
+
+    <script>
+      function goBack() {
+          window.history.back();
+      }
+      </script>
+  </body>
+</html>
