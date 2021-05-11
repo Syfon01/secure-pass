@@ -166,7 +166,7 @@ select.custom-select, ::placeholder{
  .main-body{
  
    background-color: #111827;
-   min-height: 95vh;
+   min-height: 100vh;
    color: #fff;
  }
  .background-bg{
