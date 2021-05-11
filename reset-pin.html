@@ -41,26 +41,41 @@
               </header>
             
               <div class="body-padding main-body">
-                <p class="tx-24 tx-bold tx-center pd-t-90">Enter your security pin to Access SecurePass</p>
+                <p class="tx-24 tx-bold tx-center pd-t-80">Reset PIN</p>
+                <p class="tx-16 tx-center">Please enter your current PIN and a new 4 digit PIN</p>
 
-                <div class="tx-center pd-t-50">
+                <div class="tx-center pd-t-40">
                   <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
-                    <label for="" class="tx-14 tx-medium d-block mb-2">Enter PIN </label>
+                    <label for="" class="tx-14 tx-medium d-block mb-2">Enter Your Current PIN </label>
                     <input type="text" id="digit-1" name="digit-1" data-next="digit-2" placeholder="." />
                     <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" placeholder="." />
                     <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" placeholder="." />
                     <input type="text" id="digit-4" name="digit-4" data-previous="digit-3" placeholder="." />
+
+                    <div class="pd-y-40">
+                    <label for="" class="tx-14 tx-medium d-block mb-2">Enter Your New PIN </label>
+                    <input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" placeholder="." />
+                    <input type="text" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5" placeholder="." />
+                    <input type="text" id="digit-7" name="digit-7" data-next="digit-8" data-previous="digit-6" placeholder="." /> 
+                    <input type="text" id="digit-8" name="digit-8" data-previous="digit-7" placeholder="." />
+
+                    </div>
+                    <label for="" class="tx-14 tx-medium d-block mb-2">Confirm New PIN </label>
+                    <input type="text" id="digit-9" name="digit-9" data-next="digit-8" placeholder="." />
+                    <input type="text" id="digit-10" name="digit-10" data-next="digit-9" data-previous="digit-8" placeholder="." />
+                    <input type="text" id="digit-11" name="digit-11" data-next="digit-10" data-previous="digit-9" placeholder="." />
+                    <input type="text" id="digit-12" name="digit-12" data-previous="digit-11" placeholder="." />
+                    </div>
                   </form>
-                  
-                </div>
-                  
-                <div class="background-bg">
-                  <div class="mobile-pad">
-                    <a href="./index.html" class="btn btn-primary w-100 btn-lg">Sign In</a>
-                    <a href="./reset-pin.html" class="btn tx-white tx-medium w-100 btn-lg mt-4"> Reset Pin</a>
+
+                  <div class="backgroun-bg">
+                    <div class="mobile-pad">
+                      <a href="./index.html" class="btn btn-primary w-100 btn-lg">Reset</a>
+                    </div>
                   </div>
-                
+                  
                 </div>
+                  
                                 
                   
               </div>

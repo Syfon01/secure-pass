@@ -2,9 +2,10 @@
 body{
   font-family: 'DM Sans', sans-serif!important;
   color: #111827;
+  height: 100vh;
 }
 section .col-md-4{
-  max-width: 375px;
+  max-width: 420px;
 }
 p{
   font-family: 'DM Sans', sans-serif!important;
@@ -168,7 +169,7 @@ select.custom-select, ::placeholder{
   
  }
  header{
-  max-width: 375px;
+  max-width: 420px;
   margin: 0 auto;
  }
  .main-body{
@@ -182,12 +183,23 @@ select.custom-select, ::placeholder{
   linear-gradient(to bottom, rgba(17, 24, 39, 0.5),rgba(17, 24, 39, 0.5)),
   url('../img/Waiau.svg');
   background-color: #111827;
-min-height: 500px;
+min-height: 300px;
  background-repeat: no-repeat;
  z-index: 0;
  background-position:right;
  margin-top: 50px;
-
+}
+.backgroun-bg{
+  background-image:
+  linear-gradient(to bottom, rgba(17, 24, 39, 0.5),rgba(17, 24, 39, 0.5)),
+  url('../img/Waiau.svg');
+  background-color: #111827;
+  min-height: 150px;
+ background-repeat: no-repeat;
+ z-index: 0;
+ background-position:right;
+ margin-top: 50px;
+ bottom: 0;
 }
 .btn-out{
   border: 1px solid rgba(189, 189, 189, 1)!important;
@@ -198,4 +210,32 @@ min-height: 500px;
 }
 .bg-black{
   background-color: #020816;
+}
+.mobile-pad{
+  position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 100px;
+}
+@media (max-width: 575.98px) { 
+  .mobile-pad{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 150px;
+  }
+  .background-bg{
+    background-image:
+    linear-gradient(to bottom, rgba(17, 24, 39, 0.5),rgba(17, 24, 39, 0.5)),
+    url('../img/Waiau.svg');
+    background-color: #111827;
+    /* min-height: 300px; */
+   background-repeat: no-repeat;
+   z-index: 0;
+   background-position:right;
+   margin-top: 50px;
+   bottom: 0;
+
+  
+  }
 }
