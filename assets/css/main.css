@@ -3,6 +3,9 @@ body{
   font-family: 'DM Sans', sans-serif!important;
   color: #111827;
 }
+section .col-md-4{
+  max-width: 375px;
+}
 p{
   font-family: 'DM Sans', sans-serif!important;
 }
@@ -116,7 +119,7 @@ select.custom-select, ::placeholder{
     background: rgba(243, 244, 246, 1);
   }
   .foote{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 90%;
 }
@@ -162,6 +165,11 @@ select.custom-select, ::placeholder{
  }
  .header-login{
    background-color:#020816;
+  
+ }
+ header{
+  max-width: 375px;
+  margin: 0 auto;
  }
  .main-body{
  
@@ -187,4 +195,7 @@ min-height: 500px;
   border-radius: 8px;
   color: #fff;
   font-weight: 700!important;
+}
+.bg-black{
+  background-color: #020816;
 }

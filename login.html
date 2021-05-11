@@ -23,53 +23,45 @@
     
   </head>
   <body>
-    <section class="bg-dark">
-      <div class="col-md-4 col-lg-4 col-12 mx-auto pd-x-0 pd-lg-y-20 bg-white">
+    <section>
+      <div class="col-md-4 col-lg-4 col-12 mx-auto pd-x-0 pd-lg-y-20">
         <main class="main">
-          <div class="body-padding">
             <div class="container pd-x-0">
-              <header class="d-flex justify-content-between fixed-top pd-15 bg-white">
-                <div>
-                  <p class="pd-t-10">
-                    <a onclick="goBack()" class="pd-t-10"><i class="fa fa-arrow-left"></i></a>
-                    <span class="tx-grey-2 mg-l-15">Step 2 of 2</span>
-                  </p>
-                </div>
-                <div>
-                <img src="./assets/img/uba_logo_red.svg" class="d-block img-fluid ml-auto" alt="" srcset="">
+              <header class="header-login pd-x-15 pd-y-10 fixed-top">
+               <div class="d-flex justify-content-between tx-white">
+                  <div>
+                    <p class="pd-t-10 mb-0 tx-bolder">
+                      SecurePass
+                    </p>
+                  </div>
+                  <div>
+                  <img src="./assets/img/UBA-logo.svg" class="d-block img-fluid ml-auto" alt="" srcset="">
+                  </div>
                 </div>
               </header>
             
-              <div class="mg-t-80">
-                <p class="tx-24 tx-bold">Security</p>
-                
-                <p class="tx-14 tx-medium mg-t-40">Your soft token identity needs to be protected with a 4 digit PIN</p>
-              
-                <div class="tx-center">
+              <div class="body-padding main-body">
+                <p class="tx-24 tx-bold tx-center pd-t-90">Enter your security pin to Access SecurePass</p>
 
+                <div class="tx-center pd-t-50">
                   <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
                     <label for="" class="tx-14 tx-medium d-block mb-2">Enter PIN </label>
                     <input type="text" id="digit-1" name="digit-1" data-next="digit-2" placeholder="." />
                     <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" placeholder="." />
                     <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" placeholder="." />
                     <input type="text" id="digit-4" name="digit-4" data-previous="digit-3" placeholder="." />
-
-                    <div class="mg-t-40">
-                      <label for="" class="tx-14 tx-medium d-block mb-2">Confirm PIN </label>
-                    <input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" placeholder="." />
-                    <input type="text" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5" placeholder="." />
-                    <input type="text" id="digit-7" name="digit-7" data-next="digit-8" data-previous="digit-6" placeholder="." /> 
-
-                    <input type="text" id="digit-8" name="digit-8" data-previous="digit-7" placeholder="." />
-
-                    </div>
-
-                    <div class="bg-form mg-t-40 foote">
-                      <a href="./login_1.html" class="btn btn-primary w-100 mg-t-40" id="btnActivate">Save PIN</a>
-                    </div>
                   </form>
-  
-                </div>                
+                  
+                </div>
+                  
+                <div class="background-bg">
+                  <div class="pd-t-200">
+                    <a href="./index.html" class="btn btn-primary w-100 btn-lg">Sign In</a>
+                    <a href="./login.html" class="btn tx-white tx-medium w-100 btn-lg mt-4"> Reset Pin</a>
+                  </div>
+                
+                </div>
+                                
                   
               </div>
             </div>
