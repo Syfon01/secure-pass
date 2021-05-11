@@ -32,7 +32,7 @@
                 <div>
                   <p class="pd-t-10">
                     <a onclick="goBack()" class="pd-t-10"><i class="fa fa-arrow-left"></i></a>
-                    <span class="tx-grey-2 mg-l-15">Step 1 of 2</span>
+                    <span class="tx-grey-2 mg-l-15">Step 2 of 2</span>
                   </p>
                 </div>
                 <div>
@@ -41,26 +41,31 @@
               </header>
             
               <div class="mg-t-60">
-                <p class="tx-24 tx-bold">Authentication</p>
+                <p class="tx-24 tx-bold">Security</p>
                 
-                <p class="tx-14 tx-medium mg-t-40">Please enter the one-time password (OTP) delivered to you as SMS:</p>
+                <p class="tx-14 tx-medium mg-t-40">Your soft token identity needs to be protected with a 4 digit PIN</p>
               
-                <div class="">
+                <div class="tx-center">
+
                   <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
-                    <input type="text" id="digit-1" name="digit-1" data-next="digit-2" />
-                    <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />
-                    <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />
-                    <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
-                    <input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" />
-                    <input type="text" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5" />
-                    <input type="text" id="digit-7" name="digit-7" data-next="digit-8" data-previous="digit-6" />
+                    <label for="" class="tx-14 tx-medium d-block mb-2">Enter PIN </label>
+                    <input type="text" id="digit-1" name="digit-1" data-next="digit-2" placeholder="." />
+                    <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" placeholder="." />
+                    <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" placeholder="." />
+                    <input type="text" id="digit-4" name="digit-4" data-previous="digit-3" placeholder="." />
 
-                    <input type="text" id="digit-8" name="digit-8" data-previous="digit-7" />
+                    <div class="mg-t-40">
+                      <label for="" class="tx-14 tx-medium d-block mb-2">Confirm PIN </label>
+                    <input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" placeholder="." />
+                    <input type="text" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5" placeholder="." />
+                    <input type="text" id="digit-7" name="digit-7" data-next="digit-8" data-previous="digit-6" placeholder="." /> 
 
-                    <p class="tx-14 tx-medium tx-grey tx-center mg-t-40">Resend OTP in 30s</p>
+                    <input type="text" id="digit-8" name="digit-8" data-previous="digit-7" placeholder="." />
+
+                    </div>
 
                     <div class="bg-form mg-t-40 foote">
-                      <a href="./security.html" class="btn btn-primary w-100 mg-t-40" id="btnActivate">Activate on This Device</a>
+                      <a href="./security.html" class="btn btn-primary w-100 mg-t-40" id="btnActivate">Save PIN</a>
                     </div>
                   </form>
   
