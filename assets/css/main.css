@@ -102,7 +102,8 @@ select.custom-select, ::placeholder{
   box-sizing: border-box;
   box-shadow: 0px 1px 0px rgba(27, 31, 35, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.03);
   color: #fff!important;
-    font-weight:700;
+  font-weight:700;
+  border-radius: 8px;
    }
   .bg-form{
     background-image: url('../img/Oreti.svg');
@@ -159,3 +160,31 @@ select.custom-select, ::placeholder{
    font-size: 26px;
    
  }
+ .header-login{
+   background-color:#020816;
+ }
+ .main-body{
+ 
+   background-color: #111827;
+   min-height: 95vh;
+   color: #fff;
+ }
+ .background-bg{
+  background-image:
+  linear-gradient(to bottom, rgba(17, 24, 39, 0.5),rgba(17, 24, 39, 0.5)),
+  url('../img/Waiau.svg');
+  background-color: #111827;
+min-height: 500px;
+ background-repeat: no-repeat;
+ z-index: 0;
+ background-position:right;
+ margin-top: 50px;
+
+}
+.btn-out{
+  border: 1px solid rgba(189, 189, 189, 1)!important;
+  background: transparent;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700!important;
+}
